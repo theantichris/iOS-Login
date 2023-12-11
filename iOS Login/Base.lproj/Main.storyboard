@@ -33,6 +33,9 @@
                                         <rect key="frame" x="0.0" y="78" width="383" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <segue destination="QNv-TB-zI4" kind="show" id="a7l-oH-1dG"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="q0v-jb-yiR">
                                         <rect key="frame" x="0.0" y="117.33333333333336" width="383" height="34.333333333333329"/>
@@ -69,13 +72,14 @@
         <!--Landing Screen-->
         <scene sceneID="RRb-ij-zct">
             <objects>
-                <viewController id="QNv-TB-zI4" userLabel="Landing Screen" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="QNv-TB-zI4" userLabel="Landing Screen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F30-vq-xp7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="K3I-LB-HwD"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lZo-XM-5ja"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rCF-Cb-25w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
